@@ -18,7 +18,7 @@ def prefix_expressions(expression):
 			result = result / current_number
 
 	print(result)
-	print('hola')
+
 test_cases = open('test_cases','r')
 
 for line in test_cases:
