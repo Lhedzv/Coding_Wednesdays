@@ -1,19 +1,14 @@
 def panagrams(text_line):
 
 	array_to_line = list(text_line)
-	
 	array_to_line = [ord(c.lower())-97 for c in array_to_line]
-
-
 	array_of_ascii = [0]*26
-
 
 	for x in range(0,len(array_to_line)):
 		current_char = array_to_line[x]
 
 		if(current_char >= 0 and current_char<len(array_of_ascii)):
 			array_of_ascii[current_char] += 1
-
 
 	not_on_array = []
 
